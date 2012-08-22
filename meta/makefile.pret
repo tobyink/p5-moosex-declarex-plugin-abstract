@@ -4,5 +4,7 @@
 	perl_version_from m`MooseX::DeclareX::plugin::abstract`;
 	version_from      m`MooseX::DeclareX::plugin::abstract`;
 	readme_from       m`MooseX::DeclareX::plugin::abstract`;
-	test_requires     p`Test::More 0.61`  .
+	requires          p`MooseX::DeclareX 0.002`;
+	requires          p`MooseX::ABCD 0.001`;
+	test_requires     p`Test::More 0.61`.
 

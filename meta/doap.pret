@@ -2,12 +2,13 @@
 
 @prefix : <http://usefulinc.com/ns/doap#>.
 
-`MooseX-DeclareX-plugin-abstract`
+`MooseX-DeclareX-Plugin-abstract`
 	:programming-language "Perl" ;
 	:shortdesc            "shiny syntax for MooseX::ABCD";
-	:homepage             <https://metacpan.org/release/MooseX-DeclareX-plugin-abstract>;
-	:download-page        <https://metacpan.org/release/MooseX-DeclareX-plugin-abstract>;
-	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=MooseX-DeclareX-plugin-abstract>;
+	:homepage             <https://metacpan.org/release/MooseX-DeclareX-Plugin-abstract>;
+	:download-page        <https://metacpan.org/release/MooseX-DeclareX-Plugin-abstract>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=MooseX-DeclareX-Plugin-abstract>;
+	:respository          [ a :HgRepository; :browse <https://bitbucket.org/tobyink/p5-moosex-declarex-plugin-abstract> ];
 	:created              2012-08-22;
 	:license              <http://dev.perl.org/licenses/>;
 	:maintainer           cpan:TOBYINK;

@@ -1,9 +1,9 @@
 # This file provides instructions for packaging.
 
-`MooseX-DeclareX-plugin-abstract`
-	perl_version_from m`MooseX::DeclareX::plugin::abstract`;
-	version_from      m`MooseX::DeclareX::plugin::abstract`;
-	readme_from       m`MooseX::DeclareX::plugin::abstract`;
+`MooseX-DeclareX-Plugin-abstract`
+	perl_version_from m`MooseX::DeclareX::Plugin::abstract`;
+	version_from      m`MooseX::DeclareX::Plugin::abstract`;
+	readme_from       m`MooseX::DeclareX::Plugin::abstract`;
 	requires          p`MooseX::DeclareX 0.002`;
 	requires          p`MooseX::ABCD 0.001`;
 	test_requires     p`Test::More 0.61`.

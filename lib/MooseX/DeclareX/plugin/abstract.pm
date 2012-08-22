@@ -39,19 +39,6 @@ MooseX::DeclareX::Plugin::abstract - shiny syntax for MooseX::ABCD
 
 =head1 SYNOPSIS
 
-=head1 DESCRIPTION
-
-This distribution adds two new plugins to L<MooseX::DeclareX>.
-
-=over
-
-=item C<< is abstract >>
-
-Declares that a class cannot be instantiated.
-
-Also allows the standard Moose C<requires> function to work within
-classes (it normally only works within roles).
-
 	class Shape is abstract {
 		requires 'draw';
 	}
@@ -66,6 +53,19 @@ classes (it normally only works within roles).
 	
 	my $shape  = Shape->new;  # dies
 	my $circle = Circle->new; # succeeds
+
+=head1 DESCRIPTION
+
+This distribution adds two new plugins to L<MooseX::DeclareX>.
+
+=over
+
+=item C<< is abstract >>
+
+Declares that a class cannot be instantiated.
+
+Also allows the standard Moose C<requires> function to work within
+classes (it normally only works within roles).
 
 When a class requires a method, then subclasses are supposed to provide that
 method. If the subclass itself is also abstract, then it doesn't need to

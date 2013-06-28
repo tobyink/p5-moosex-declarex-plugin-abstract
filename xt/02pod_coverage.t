@@ -1,4 +1,4 @@
-use Test::More;
+use Test::More skip_all => 'n/a';
 use Test::Pod::Coverage;
 
 my @modules = qw(MooseX::DeclareX::Plugin::abstract);
